@@ -3,11 +3,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-  <Id>05c2e1c9-3e1d-406e-9a91-e9ac64854143</Id>
+  <Id>1d7dc876-fe09-411f-8df6-051135dc3b91</Id>
   <Version>1.2.0.1</Version>
-  <ProviderName>Local Mail Copilot</ProviderName>
+  <ProviderName>EnTi</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Local Mail Copilot"/>
+  <DisplayName DefaultValue="Мой Копилот"/>
   <Description DefaultValue="Summarize email and conversations with local Ollama."/>
   <IconUrl DefaultValue="https://bondarevskyyc.github.io/outlook-copilot-qwen-pages/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://bondarevskyyc.github.io/outlook-copilot-qwen-pages/assets/icon-128.png"/>
