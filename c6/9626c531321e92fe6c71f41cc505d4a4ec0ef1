@@ -1,0 +1,14 @@
+manifest.xml
+  h_a5c43dd01f1863 6,8,10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c69626c531321e92fe6c71f41cc505d4a4ec0ef1",
+  "prompts": {},
+  "humans": {
+    "h_a5c43dd01f1863": {
+      "author": "michael <mibon@contoso.com>"
+    }
+  }
+}
