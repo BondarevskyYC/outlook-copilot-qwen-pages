@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local Mail Copilot</title>
+  <style>body{font:17px/1.6 system-ui,sans-serif;max-width:760px;margin:64px auto;padding:0 24px;color:#182435;background:#f6f8fc}a{color:#245cba}code{overflow-wrap:anywhere}section{background:white;padding:24px;border-radius:16px;margin:24px 0}</style>
+</head>
+<body>
+  <h1>Local Mail Copilot</h1>
+  <p>Сводки писем, переписок и календаря Outlook с локальной Ollama.</p>
+  <section>
+    <h2>Установка в Outlook</h2>
+    <p><a href="manifest.xml" download>Скачать манифест надстройки</a> и установить его через раздел пользовательских надстроек Outlook или администратора Microsoft 365.</p>
+    <p>Откройте письмо → Приложения → Local Mail Copilot. Суточная сводка доступна на вкладке «За сутки», а в классическом Outlook для Windows — также отдельным модулем.</p>
+  </section>
+  <section>
+    <h2>Локальная модель</h2>
+    <p>Запустите Ollama на своём компьютере с моделью из <a href="config.json">config.json</a>. Разрешите origin сайта в окружении процесса Ollama и перезапустите её:</p>
+    <p><code>OLLAMA_ORIGINS=https://bondarevskyyc.github.io ollama serve</code></p>
+    <p>Доступ webview Outlook к localhost зависит от браузера и политик организации. Локальный сервер на порту 3000 не нужен.</p>
+  </section>
+  <p>Для тредов и календаря нужно настроить Entra ID и разрешения Mail.Read / Calendars.Read. Пока clientId в config.json пуст, доступна суммаризация открытого письма.</p>
+  <p>Содержимое писем и календаря обрабатывает локальная модель. Сайт не хранит письма и сводки.</p>
+</body>
+</html>
