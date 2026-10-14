@@ -1,0 +1,41 @@
+commands.html
+  s_021301fdbc2ee2::t_300ac01f873ed0 1
+commands.js
+  s_021301fdbc2ee2::t_b52e1048f17b59 1
+config.json
+  s_021301fdbc2ee2::t_93b5be4f1f530c 1-6
+index.html
+  s_021301fdbc2ee2::t_a25ad6f1800beb 1-26
+manifest.xml
+  s_021301fdbc2ee2::t_47354558881cda 1-130
+polyfill.js
+  s_021301fdbc2ee2::t_09acf585a3b073 1-2
+polyfill.js.LICENSE.txt
+  s_021301fdbc2ee2::t_89d38958bfd208 1-7
+react.js
+  s_021301fdbc2ee2::t_1ed22acf7bbdc2 1-2
+react.js.LICENSE.txt
+  s_021301fdbc2ee2::t_92e90864b78ba7 1-37
+taskpane.html
+  s_021301fdbc2ee2::t_fd437e8b57855b 1
+taskpane.js
+  s_021301fdbc2ee2::t_9b2bc9f5814dcb 1-2
+taskpane.js.LICENSE.txt
+  s_021301fdbc2ee2::t_ec5493ef77ef0f 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fc9e8cdefde1407fe54029c622f03b5070979f27",
+  "prompts": {},
+  "sessions": {
+    "s_021301fdbc2ee2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13a86-a1e6-7bc2-9957-612980aa31b2",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "michael <mibon@contoso.com>"
+    }
+  }
+}
