@@ -1,0 +1,21 @@
+manifest.xml
+  s_021301fdbc2ee2::t_46e00cce927f00 7
+taskpane.js
+  s_021301fdbc2ee2::t_6193c85e5317a2 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "844604f776e09adaace2548a26bf58b834e39b3a",
+  "prompts": {},
+  "sessions": {
+    "s_021301fdbc2ee2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13a86-a1e6-7bc2-9957-612980aa31b2",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "michael <mibon@contoso.com>"
+    }
+  }
+}
